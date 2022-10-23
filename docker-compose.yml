@@ -1,0 +1,15 @@
+version: '2'
+services:
+  oracledb:
+    image: gvenzl/oracle-xe:21.3.0
+    volumes:
+      - oracledb-data:/opt/oracle/oradata
+    environment:
+      ORACLE_PASSWORD: "Oracle12345%"
+      ORACLE_DATABASE: "groceman"
+      APP_USER: "groceman_user"
+      APP_USER_PASSWORD: "groceman_password"
+    ports:
+      - 1521:1521
+volumes:
+  oracledb-data:
