@@ -1,6 +1,6 @@
-import DatabaseQuery from "../DatabaseQuery";
-import DbStructureExistsQuery from "./DbStructureExistsQuery";
-import InvalidQueryCallError from "../../errors/InvalidQueryCallError";
+import DatabaseQuery from "src/db/queries/DatabaseQuery";
+import DbStructureExistsQuery from "src/db/queries/dbStructure/DbStructureExistsQuery";
+import InvalidQueryCallError from "src/db/errors/InvalidQueryCallError";
 
 export default class DbStructureDropQuery extends DatabaseQuery {
     private static queryFile: string = "dbStructure/DbStructureDropQuery.sql";

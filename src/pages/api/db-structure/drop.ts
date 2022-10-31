@@ -2,8 +2,8 @@ import type {NextApiRequest, NextApiResponse} from 'next'
 
 import oracledb from "oracledb";
 import oracleCredentials from "src/db/credentials/dbCredentials";
-import InvalidQueryCallError from "../../../db/errors/InvalidQueryCallError";
-import DbStructureDropQuery from "../../../db/queries/dbStructure/DbStructureDropQuery";
+import InvalidQueryCallError from "src/db/errors/InvalidQueryCallError";
+import DbStructureDropQuery from "src/db/queries/dbStructure/DbStructureDropQuery";
 
 type DropDbStructureResponse = {
     ok: boolean,

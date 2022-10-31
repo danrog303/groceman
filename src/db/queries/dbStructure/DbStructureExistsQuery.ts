@@ -1,4 +1,4 @@
-import DatabaseQuery from "../DatabaseQuery";
+import DatabaseQuery from "src/db/queries/DatabaseQuery";
 
 export default class DbStructureExistsQuery extends DatabaseQuery {
     protected static queryFile: string = "dbStructure/DbStructureExistsQuery.sql";
