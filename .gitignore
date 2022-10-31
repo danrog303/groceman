@@ -34,3 +34,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# .idea database related stuff
+.idea/dataSources.local.xml
+.idea/dataSources.xml
+.idea/sqldialects.xml
