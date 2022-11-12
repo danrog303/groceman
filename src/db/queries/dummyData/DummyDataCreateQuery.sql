@@ -107,7 +107,7 @@ INSERT INTO EmployeesPhoneNumbers (phoneNumberId, phoneNumber, employeeId) VALUE
 INSERT INTO EmployeesPhoneNumbers (phoneNumberId, phoneNumber, employeeId) VALUES (15, '+4849582838', 9);
 
 INSERT INTO GiftCards (cardNumber, remainingPLN, initialPLN, issueDate, expirationDate, issuingEmployee)
-VALUES (859192, 1000.00, 1000.00, TO_DATE('2022/05/03', 'yyyy/mm/dd'), TO_DATE('2023/12/31', 'yyyy/mm/dd'), 16);
+VALUES (859192, 00.50, 1000.00, TO_DATE('2022/05/03', 'yyyy/mm/dd'), TO_DATE('2023/12/31', 'yyyy/mm/dd'), 16);
 INSERT INTO GiftCards (cardNumber, remainingPLN, initialPLN, issueDate, expirationDate, issuingEmployee)
 VALUES (919201, 120.50, 200.00, TO_DATE('2022/05/04', 'yyyy/mm/dd'), TO_DATE('2023/12/31', 'yyyy/mm/dd'), 17);
 INSERT INTO GiftCards (cardNumber, remainingPLN, initialPLN, issueDate, expirationDate, issuingEmployee)
@@ -121,7 +121,7 @@ VALUES (189204, 100.00, 300.00, TO_DATE('2022/05/08', 'yyyy/mm/dd'), TO_DATE('20
 INSERT INTO GiftCards (cardNumber, remainingPLN, initialPLN, issueDate, expirationDate, issuingEmployee)
 VALUES (910145, 500.00, 750.00, TO_DATE('2022/05/09', 'yyyy/mm/dd'), TO_DATE('2023/12/31', 'yyyy/mm/dd'), 17);
 INSERT INTO GiftCards (cardNumber, remainingPLN, initialPLN, issueDate, expirationDate, issuingEmployee)
-VALUES (817239, 123.00, 500.00, TO_DATE('2022/05/10', 'yyyy/mm/dd'), TO_DATE('2023/12/31', 'yyyy/mm/dd'), 18);
+VALUES (817239, 123.00, 500.00, TO_DATE('2022/05/10', 'yyyy/mm/dd'), TO_DATE('2022/01/01', 'yyyy/mm/dd'), 18);
 INSERT INTO GiftCards (cardNumber, remainingPLN, initialPLN, issueDate, expirationDate, issuingEmployee)
 VALUES (591238, 222.00, 500.00, TO_DATE('2022/05/11', 'yyyy/mm/dd'), TO_DATE('2023/12/31', 'yyyy/mm/dd'), 19);
 INSERT INTO GiftCards (cardNumber, remainingPLN, initialPLN, issueDate, expirationDate, issuingEmployee)
@@ -131,7 +131,7 @@ VALUES (412391, 75.00, 1000.00, TO_DATE('2022/05/13', 'yyyy/mm/dd'), TO_DATE('20
 INSERT INTO GiftCards (cardNumber, remainingPLN, initialPLN, issueDate, expirationDate, issuingEmployee)
 VALUES (112112, 100.00, 100.00, TO_DATE('2022/05/14', 'yyyy/mm/dd'), TO_DATE('2023/12/31', 'yyyy/mm/dd'), 17);
 INSERT INTO GiftCards (cardNumber, remainingPLN, initialPLN, issueDate, expirationDate, issuingEmployee)
-VALUES (373373, 25.00, 50.00, TO_DATE('2022/05/15', 'yyyy/mm/dd'), TO_DATE('2023/12/31', 'yyyy/mm/dd'), 18);
+VALUES (373373, 25.00, 50.00, TO_DATE('2022/05/15', 'yyyy/mm/dd'), TO_DATE('2022/06/06', 'yyyy/mm/dd'), 18);
 INSERT INTO GiftCards (cardNumber, remainingPLN, initialPLN, issueDate, expirationDate, issuingEmployee)
 VALUES (911999, 20.00, 50.00, TO_DATE('2022/05/15', 'yyyy/mm/dd'), TO_DATE('2023/12/31', 'yyyy/mm/dd'), 19);
 INSERT INTO GiftCards (cardNumber, remainingPLN, initialPLN, issueDate, expirationDate, issuingEmployee)
