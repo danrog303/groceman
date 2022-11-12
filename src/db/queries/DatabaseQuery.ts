@@ -42,7 +42,9 @@ export default abstract class DatabaseQuery {
             throw new InvalidQueryCallError(msg);
         }
 
-        return await this.connection.execute(sqlStatements[0]);
+        const result = await this.connection.execute(sqlStatements[0]);
+        await this.connection.commit();
+        return result;
     }
 
     protected async runMultipleQueries(queryFile: string): Promise<Array<oracledb.Result<unknown>>> {
@@ -52,6 +54,7 @@ export default abstract class DatabaseQuery {
         for (const sqlStatement of sqlStatements) {
             result.push(await this.connection.execute(sqlStatement));
         }
+        await this.connection.commit();
 
         return result;
     }

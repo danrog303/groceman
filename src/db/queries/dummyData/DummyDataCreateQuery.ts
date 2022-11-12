@@ -1,5 +1,4 @@
 import DatabaseQuery from "src/db/queries/DatabaseQuery";
-import DbStructureExistsQuery from "src/db/queries/dbStructure/DbStructureExistsQuery";
 import InvalidQueryCallError from "src/db/errors/InvalidQueryCallError";
 
 export default class DummyDataCreateQuery extends DatabaseQuery {
